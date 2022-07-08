@@ -1,0 +1,32 @@
+/* Je donne les propriétés à mon bloc qui va contenir mes deux autres BLOC en largeur et hauteur
+Le margin 0 auto permet de centrer sur la page LE BLOC ENTIER avec les deux parties GAUCHE ET DROITE */ 
+.general{
+
+width: 800px;
+height: 400px;
+margin:0 auto ; 
+}
+
+/* Je dis à mon BLOC GAUCHE de prendre 50% du BLOC général et je le mets en display INLINE BLOCK
+pour que le prochain BLOC se met à la suite et pas en dessous */
+.gauche{
+
+width: 50%;
+height: 100%;
+display: inline-block;
+background-color: aquamarine;
+}
+/* Je dis à mon BLOC DROITE de prendre 50% du BLOC général et de prendre position à DROITE */
+
+.droite{
+    width: 50%;
+    height: 100%;
+    background-color: green;
+    float: right;
+}
+
+/* Je dis à mon image qui se trouve dans le BLOC DROITE tu me prends toute la largeur et toute la hauteur du BLOC */
+.droite img {
+    width: 100%;
+    height: 100%;
+}
