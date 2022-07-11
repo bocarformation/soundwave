@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Poppins;
+}
+
+/* page DISCOVER *//*header*/
+
+header{
+    display: flex;
+    width: 100%;
+    height: 90px;
+    background-color: rgb(67, 67, 90);
+    flex-wrap: nowrap;
+    /*border: 1px solid black;*/
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+figure{
+    display: flex;
+    margin-left: 15%;
+}
+.logo{
+    display: flex;
+    width: 60px;
+    height: 60px;
+    padding-top: 10px;
+}
+p{
+    display: flex;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+    padding-top: 20px;
+    padding-left: 10%; 
+}
+nav{
+    margin-right: 15%;
+}
+ul{
+    display: flex;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    justify-content: right;
+    padding-top: 30px;
+    list-style-type: none;
+}
+li{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/*blocs du centre*/
+
+main{    
+    display: flex;
+    width: 100%;
+    height: 520px;
+    background-color: rgb(67, 67, 90);
+    /*border: 1px solid black;*/
+}
+h1{
+    display: flex;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    padding-top: 10%;  
+    text-align: left;
+    margin-left: 30%;
+}
+.section{
+    display: flex;
+    width: 80%;  
+    height: 520px;
+    background-color: rgb(67, 67, 90);
+    /*border: 1px solid black;*/    
+}
+.pictos{
+    width: 60%;
+    height: 180px;
+    display: flex;
+    word-spacing: 10px;
+    padding-left: 30%;
+    /*border: 1px solid black;*/
+}
+p{
+    font-size: 22px;
+}
+.micro, .albums, .more{
+    background-color: rgb(46, 46, 63);
+    width: 120px;
+    height: 120px;
+    border: 1px solid black;
+    text-align: center;
+}
+.micro{
+    margin: 10px;
+}
+.albums{
+    margin: 10px;
+}
+.more{
+    margin: 10px;
+}
+.text{
+    display: flex;
+    margin-left: 20%;
+}
+.covers img{
+    display: flex;
+    width: 400px;
+    height: 400px;
+    padding-top: 55px;
+}
+
+
+
+/*FOOTER*/
+
+footer{
+    display: flex;
+    width: 100%;
+    height: 90px;
+    background-color: rgb(46, 46, 63);
+    /*border: 1px solid black;*/
+}
+.boutong{
+    display: flex;
+    align-content: flex-end;
+    
+}
+.boutondr{
+    display: flex;
+    align-content: flex-start;  
+}
+
+
+
+/*PAGE INDEX*/
+
+
+.girl{
+
+    height: 80%;
+    padding-top: 105px;
+}
+.musique{
+    display: flex;
+    width: 60%;
+    height: 50%;
+    
+    
+}
+button{
+    width: 140px;
+    height: 30px;
+    justify-content: center;
+    background: rgb(61, 178, 228);
+}
